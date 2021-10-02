@@ -39,7 +39,7 @@
       >
         <v-list-item-group
           v-model="group"
-          active-class="deep-purple--text text--accent-4"
+          active-class="green accent-1--text text--accent-4"
         >
           <router-link to="/">
             <v-list-item>

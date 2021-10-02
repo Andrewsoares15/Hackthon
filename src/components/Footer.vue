@@ -10,7 +10,7 @@
     >
       <v-card-title class="teal">
         <strong class="subheading">#AnywhereTogether - <v-avatar>
-      <a href="https://t.me/pauloboldrini">
+      <a href="https://t.me/joinchat/9NfFNQRadl1hYjJh">
           <img
         src="../assets/telegram3.png"
         alt="Telegram"
