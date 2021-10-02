@@ -1,5 +1,5 @@
 <template>
-  <div class="saude">
+  <div class="titulo-container">>
     <img alt="Vue logo" src="../assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" />
     <h1>Lazer e Saúde Mental</h1>
@@ -18,13 +18,10 @@ As horas de lazer são a melhor válvula de descompressão, especialmente para e
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
 
 export default {
-  name: "saude",
+  name: "SaudeMental",
   components: {
-    HelloWorld,
   },
 };
 </script>
