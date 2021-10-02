@@ -16,6 +16,10 @@ export default {
   }
 }
 </script>
-<style lang="scss">
-
+<style>
+  .titulo-container{
+      display: flex;
+      justify-content: center;
+      margin: 20px 0 ;
+    }
 </style>

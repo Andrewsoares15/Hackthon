@@ -1,6 +1,9 @@
 <template>
   <div class="sobre">
-    <h1>Sobre nós</h1>
+    <div class="titulo-container">
+      <h1>Sobre nós</h1>
+
+    </div>
     <p>
       Somos uma comunidade que além de amar cultura pop (especialmente animes e
       jogos!) acredita que o lazer de forma geral é parte fundamental da nossa
@@ -22,4 +25,11 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+  .titulo-container{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 ;
+  }
+
+</style>
