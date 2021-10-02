@@ -83,12 +83,14 @@
         </v-list-item-group>
       </v-list>
     </v-navigation-drawer>
+    <v-app>
+    </v-app>
   </div>
 </template>
 
 <script>
   export default {
-     data() {
+    data() {
         return{
            drawer: false,
            group: null,
