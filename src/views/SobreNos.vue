@@ -2,7 +2,7 @@
   <div class="sobre">
     <div class="titulo-container">
       <h1>Sobre nós</h1>
-
+      
     </div>
     <p class="ml-3 mr-3">Com a pandemia nós acabamos ficando distantes e reclusos em casa. Mas isso não significa que o entretenimento acabou 🤩</p>
     <br>
