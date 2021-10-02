@@ -8,27 +8,31 @@
 </template>
 
 <script>
-import CardGames from '../components/CardGames.vue'
+import CardGames from "../components/CardGames.vue";
 
 export default {
-  name: 'Games',
+  name: "Games",
   components: {
-    CardGames
+    CardGames,
   },
   data() {
     return {
-      gamesLista: []
-    }
+      gamesLista: [],
+    };
   },
-    created() {
-      fetch('https://it3zxc-default-rtdb.firebaseio.com/lazer/jogos.json')
-        .then(response => response.json())
-        .then(json => {
-          this.gamesLista = json;
-        })
-    }
-  }
+  created() {
+    fetch("https://it3zxc-default-rtdb.firebaseio.com/lazer/jogos.json")
+      .then((response) => response.json())
+      .then((json) => {
+        this.gamesLista = json;
+      });
+  },
+};
 </script>
 
 <style scoped>
+.h1 {
+  font-style: bold;
+  color: #037682;
+}
 </style>
