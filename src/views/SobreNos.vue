@@ -21,7 +21,7 @@
       nosso grupo do Telegram ou Preenchendo o formulário abaixo.
     </p>
     <br>
-    <p class="ml-3 mr-3">Você não está sozinho 💙</p>
+    <p class="ml-3 mr-3">Você não está sozinho(a) 💙</p>
     
     <h2 class="text-center">Fale conosco</h2>
     <v-form
