@@ -1,18 +1,29 @@
 <template>
   <div class="animes">
     <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <h1>Animes</h1>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
 
 export default {
   name: "Animes",
   components: {
-    HelloWorld,
+    
   },
+  data() {
+    return {
+      animesLista: []
+    }
+  },
+  created() {
+    fetch('https://it3zxc-default-rtdb.firebaseio.com/lazer/animes.json')
+      .then(response => response.json())
+      .then(json => {
+        this.animesLista = json;
+        console.log(this.animesLista)
+      })
+    }
 };
 </script>
