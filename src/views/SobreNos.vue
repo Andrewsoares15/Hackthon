@@ -4,6 +4,11 @@
       <h1>Sobre nós</h1>
 
     </div>
+    <p class="ml-3 mr-3">Com a pandemia nós acabamos ficando distantes e reclusos em casa. Mas isso não significa que o entretenimento acabou 🤩</p>
+    <br>
+    <p class="ml-3 mr-3">Este site foi desenvolvido pensando em você, que assim como nós deve cansado de ficar em casa sem um passa-tempo. Aproveite nossos jogos e animes gratuitamente!</p>
+    <br>
+
     <p class="ml-3 mr-3">
       Somos uma comunidade que além de amar cultura pop (especialmente animes e
       jogos!) acredita que o lazer de forma geral é parte fundamental da nossa
@@ -15,6 +20,9 @@
       algo que ainda não conste nas nossas listas, mande seu anime e/ou jogo no
       nosso grupo do Telegram ou Preenchendo o formulário abaixo.
     </p>
+    <br>
+    <p class="ml-3 mr-3">Você não está sozinho 💙</p>
+    
     <h2 class="text-center">Fale conosco</h2>
     <v-form
     id="formulario"
