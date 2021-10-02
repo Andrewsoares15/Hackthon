@@ -2,8 +2,17 @@
   <div class="sobre">
     <div class="titulo-container">
       <h1>Sobre nós</h1>
+<<<<<<< HEAD
+=======
+      
+>>>>>>> ed59d3f264f587a1d2ae4540d105fe46a1158afb
     </div>
-    <p class="ml-3 mr-3">
+    <p class="ml-3 mr-3" align="justify">Com a pandemia nós acabamos ficando distantes e reclusos em casa. Mas isso não significa que o entretenimento acabou 🤩</p>
+    <br>
+    <p class="ml-3 mr-3" align="justify">Este site foi desenvolvido pensando em você, que assim como nós deve cansado de ficar em casa sem um passa-tempo. Aproveite nossos jogos e animes gratuitamente!</p>
+    <br>
+
+    <p class="ml-3 mr-3" align="justify">
       Somos uma comunidade que além de amar cultura pop (especialmente animes e
       jogos!) acredita que o lazer de forma geral é parte fundamental da nossa
       saúde, principalmente nestes tempos de pandemia em que muitos de nós
@@ -14,6 +23,9 @@
       algo que ainda não conste nas nossas listas, mande seu anime e/ou jogo no
       nosso grupo do Telegram ou Preenchendo o formulário abaixo.
     </p>
+    <br>
+    <p class="ml-3 mr-3">Você não está sozinho 💙</p>
+    
     <h2 class="text-center">Fale conosco</h2>
     <v-form id="formulario" ref="form" v-model="valid" lazy-validation>
       <v-text-field
@@ -45,6 +57,7 @@
           label="Nos envie sua Mensagem"
         ></v-textarea>
       </v-col>
+<<<<<<< HEAD
       <v-btn
         :disabled="!valid"
         color="success"
@@ -55,6 +68,18 @@
         Enviar
       </v-btn>
     </v-form>
+=======
+    <v-btn
+      :disabled="!valid"
+      color="success"
+      class="mr-4"
+      type="reset"
+    >
+      Enviar
+    </v-btn>
+   
+  </v-form>
+>>>>>>> ed59d3f264f587a1d2ae4540d105fe46a1158afb
   </div>
 </template>
 
@@ -78,9 +103,16 @@ export default {
     checkbox: false,
   }),
 
+<<<<<<< HEAD
   methods: {
     validate() {
       this.$refs.form.validate();
+=======
+    methods: {
+      validate () {
+        this.$refs.form.validate()
+      },
+>>>>>>> ed59d3f264f587a1d2ae4540d105fe46a1158afb
     },
     enviar() {},
   },

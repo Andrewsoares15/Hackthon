@@ -1,6 +1,9 @@
 <template>
   <div>
-    <a href="https://t.me/pauloboldrini" target="_blank"><img src="https://i.imgur.com/DWJroXT.png" style="height:60px; position:fixed; bottom: 160px; right: 2px; z-index:99999;" data-selector="img"></a>
+      <div class="tel">
+              <a href="https://t.me/joinchat/9NfFNQRadl1hYjJh" class="time" target="_blank"><img src="https://i.imgur.com/DWJroXT.png" style="height:47px; position:fixed; bottom: 55%;right: -4px; z-index:99999;" data-selector="img"></a>
+
+      </div>
     <v-app-bar
       
       color="#43a047"
@@ -104,4 +107,6 @@
 a{
     text-decoration: none;
 }
+
+
 </style>
