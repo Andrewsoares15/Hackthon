@@ -22,6 +22,13 @@
               <v-card-subtitle>Genêro: {{anime.genre}}</v-card-subtitle>
             </v-img>
             <v-card-actions>
+                 <v-btn
+                    color="primary"
+                    text
+                    @click="dialog = true"
+                >
+                    Sinopse
+                </v-btn>
               <v-spacer></v-spacer>
               <v-btn icon>
                 <v-icon>mdi-heart</v-icon>
@@ -43,6 +50,11 @@
 <script>
 export default {
     name: 'CardAnimes',
+    data () {
+      return {
+        dialog: false,
+      }
+    },
     props: {
         animes: {
             type: Array,
