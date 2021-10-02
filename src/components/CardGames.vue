@@ -19,6 +19,7 @@
               height="200px"
             >
               <v-card-title v-text="game.name"></v-card-title>
+              <v-card-subtitle>Genêro: {{game.genre}}</v-card-subtitle>
             </v-img>
             <v-card-actions>
               <v-spacer></v-spacer>
