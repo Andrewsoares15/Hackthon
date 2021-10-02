@@ -1,5 +1,6 @@
 <template>
   <div>
+    <a href="https://t.me/pauloboldrini" target="_blank"><img src="https://i.imgur.com/DWJroXT.png" style="height:60px; position:fixed; bottom: 160px; right: 22px; z-index:99999;" data-selector="img"></a>
     <v-app-bar
       
       color="#43a047"
