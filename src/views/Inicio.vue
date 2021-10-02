@@ -16,6 +16,7 @@
             <v-col
               :cols="12"
             >
+            <router-link to="/saude">
               <v-card>
                 <v-img
                   src="../assets/saude_mental.png"
@@ -26,11 +27,14 @@
                   <v-card-title>Lazer</v-card-title>
                 </v-img>
               </v-card>
+            </router-link>
             </v-col>
+            
             <v-col
               
               :cols="6"
             >
+             <router-link to="/animes">
               <v-card>
                 <v-img
                   src="../assets/animes.jpg"
@@ -41,11 +45,13 @@
                   <v-card-title>Animes</v-card-title>
                 </v-img>
               </v-card>
+             </router-link>
             </v-col>
             <v-col
               
               :cols="6"
             >
+            <router-link to="/games">
               <v-card>
                 <v-img
                   src="../assets/games.jpg"
@@ -56,6 +62,7 @@
                   <v-card-title>Games</v-card-title>
                 </v-img>
               </v-card>
+            </router-link>
             </v-col>
           </v-row>
         </v-container>

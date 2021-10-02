@@ -1,7 +1,7 @@
 <template>
   <div>
       <div class="tel">
-              <a href="https://t.me/pauloboldrini" class="time" target="_blank"><img src="https://i.imgur.com/DWJroXT.png" style="height:47px; position:fixed; bottom: 375px;right: -4px; z-index:99999;" data-selector="img"></a>
+              <a href="https://t.me/pauloboldrini" class="time" target="_blank"><img src="https://i.imgur.com/DWJroXT.png" style="height:47px; position:fixed; bottom: 55%;right: -4px; z-index:99999;" data-selector="img"></a>
 
       </div>
     <v-app-bar
