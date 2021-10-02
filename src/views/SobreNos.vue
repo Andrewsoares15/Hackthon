@@ -66,7 +66,6 @@
       :disabled="!valid"
       color="success"
       class="mr-4"
-      @click="Enviar"
       type="reset"
     >
       Enviar
@@ -105,9 +104,6 @@ export default {
       validate () {
         this.$refs.form.validate()
       },
-      enviar(){
-
-      }
     },
   }
 </script>
