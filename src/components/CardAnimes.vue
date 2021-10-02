@@ -19,6 +19,7 @@
               height="200px"
             >
               <v-card-title v-text="anime.name"></v-card-title>
+              <v-card-subtitle>Genêro: {{anime.genre}}</v-card-subtitle>
             </v-img>
             <v-card-actions>
               <v-spacer></v-spacer>

@@ -1,6 +1,5 @@
 <template>
   <div class="animes">
-    <img alt="Vue logo" src="../assets/logo.png" />
     <h1>Animes</h1>
     <CardAnimes :animes="animesLista" />
   </div>
