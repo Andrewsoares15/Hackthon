@@ -21,8 +21,8 @@
       nosso grupo do Telegram ou Preenchendo o formulário abaixo.
     </p>
     <br>
-    <p class="ml-3 mr-3">Você não está sozinho(a) 💙</p>
-    
+    <p class="ml-3 mr-3 text-center">Você não está sozinho(a) 💙</p>
+    <hr style="margin: 0 auto;" width="80%">
     <h2 class="text-center">Fale conosco</h2>
     <v-form
     id="formulario"
@@ -65,7 +65,7 @@
     <v-btn
       :disabled="!valid"
       color="success"
-      class="mr-4"
+      class="mr-4 mb-3"
       type="reset"
     >
       Enviar

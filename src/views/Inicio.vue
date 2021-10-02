@@ -1,7 +1,7 @@
 <template>
   <div class="inicio">
      
-    <center><v-img src="../assets/JoyTogether.png" class="mt-5 mb-3 ml-3 mr-3" width="600" height="200"></v-img></center>
+    <center><v-img src="../assets/JoyTogether.png" class="mt-5 mb-3" width="600" height="200"></v-img></center>
     <p class="ml-3 mr-3" align="center">Entretenimento e diversão, venha fazer parte. Você não está sozinho(a). 💙</p>
       <v-card
         class="mx-auto"
@@ -76,11 +76,5 @@ export default {
 }
 </script>
 <style scoped>
-@media only screen and (min-width: 600px) {
-  .teste{
-      max-width: 60%;
-      position: relative;
-      left: 20%;
-  }
-}
+
 </style>
