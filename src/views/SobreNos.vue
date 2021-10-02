@@ -1,6 +1,5 @@
 <template>
   <div class="sobre">
-    <img alt="Vue logo" src="../assets/logo.png" />
     <h1>Sobre nós</h1>
     <p>
       Somos uma comunidade que além de amar cultura pop (especialmente animes e
