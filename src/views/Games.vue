@@ -2,17 +2,17 @@
   <div class="games">
     <img alt="Vue logo" src="../assets/logo.png">
     <h1>Games</h1>
-    <Card :games="gamesLista" />
+    <CardGames :games="gamesLista" />
   </div>
 </template>
 
 <script>
-import Card from '../components/Card.vue'
+import CardGames from '../components/CardGames.vue'
 
 export default {
   name: 'Games',
   components: {
-    Card
+    CardGames
   },
   data() {
     return {
@@ -24,7 +24,6 @@ export default {
         .then(response => response.json())
         .then(json => {
           this.gamesLista = json;
-          console.log(this.gamesLista)
         })
     }
   }
