@@ -1,7 +1,7 @@
 <template>
   <div class="sobre">
     <div class="titulo-container">
-      <h1>Sobre nós</h1>
+      <h1 class="titulo">Sobre nós</h1>
     </div>
     <p class="ml-3 mr-3" align="justify">
       Com a pandemia nós acabamos ficando distantes e reclusos em casa. Mas isso
@@ -103,17 +103,15 @@ export default {
 </script>
 
 <style scoped>
+.titulo {
+  color: #037682;
+  font-style: bold;
+}
 .titulo-container {
   display: flex;
   justify-content: center;
   margin: 20px 0;
 }
-
-.h1 {
-  font-style: bold;
-  color: #037682;
-}
-
 p {
   text-align: justify;
 }
