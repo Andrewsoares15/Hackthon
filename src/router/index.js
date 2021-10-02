@@ -1,17 +1,17 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
 import Animes from '../views/Animes.vue'
 import Games from '../views/Games.vue'
 import Sobre from '../views/Animes.vue'
+import Inicio from '../views/Inicio.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'Inicio',
+    component: Inicio
   },
   {
     path: '/animes',
