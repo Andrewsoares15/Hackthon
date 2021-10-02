@@ -7,7 +7,7 @@
 
 As atividades de lazer não apenas ajudam a controlar o estresse – sabemos que o estresse está ligado à piora do estado de saúde mental – como nos dão um senso de autocuidado e de equilíbrio, algo que ajuda a reduzir a ansiedade. Além, é claro, de melhorar a autoestima.
 
-Alguns estudos mostraram que os momentos que se reservam para fazer algo em benefício próprio ajudam a acelerar a recuperação de pacientes com transtornos mentais mais graves, como depressão.
+Alguns estudos mostraram que os momentos que se reservam para fazer algo em benefício próprio ajudam a acelerar a recuperação de pessoas com transtornos mentais mais graves, como depressão.
 
 O curioso é que, quando estamos estressados ou sobrecarregados de trabalho, geralmente a primeira coisa que sacrificamos é o nosso tempo livre.
 
