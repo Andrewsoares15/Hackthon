@@ -1,6 +1,6 @@
 <template>
   <div>
-    <a href="https://t.me/pauloboldrini" target="_blank"><img src="https://i.imgur.com/DWJroXT.png" style="height:60px; position:fixed; bottom: 160px; right: 22px; z-index:99999;" data-selector="img"></a>
+    <a href="https://t.me/pauloboldrini" target="_blank"><img src="https://i.imgur.com/DWJroXT.png" style="height:60px; position:fixed; bottom: 160px; right: 2px; z-index:99999;" data-selector="img"></a>
     <v-app-bar
       
       color="#43a047"
@@ -66,7 +66,7 @@
           <router-link to="/animes">
             <v-list-item>
               <v-list-item-icon>
-                <v-icon>mdi-home</v-icon>
+                <v-icon>mdi-movie-open</v-icon>
               </v-list-item-icon>
               <v-list-item-title>Animes</v-list-item-title>
             </v-list-item>
@@ -83,12 +83,14 @@
         </v-list-item-group>
       </v-list>
     </v-navigation-drawer>
+    <v-app>
+    </v-app>
   </div>
 </template>
 
 <script>
   export default {
-     data() {
+    data() {
         return{
            drawer: false,
            group: null,
