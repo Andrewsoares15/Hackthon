@@ -12,8 +12,8 @@
         <strong class="subheading">#AnywhereTogether - <v-avatar>
       <a href="https://t.me/pauloboldrini">
           <img
-        src="../assets/telegram.png"
-        alt="John"
+        src="../assets/telegram3.png"
+        alt="Telegram"
       >
       </a>
     </v-avatar> </strong>
