@@ -28,11 +28,6 @@ const routes = [
     name: 'Games',
     component: Games
   },
-  {
-    path: '/games',
-    name: 'Games',
-    component: Games
-  },
 ]
 
 const router = new VueRouter({
