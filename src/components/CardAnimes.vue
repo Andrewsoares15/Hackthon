@@ -7,18 +7,18 @@
     <v-container fluid>
       <v-row dense>
         <v-col
-          v-for="(game,index) of games"
+          v-for="(anime,index) of animes"
           :key="index"
           cols="6"
         >
           <v-card>
             <v-img
-              :src="game.photo"
+              :src="anime.photo"
               class="white--text align-end"
               gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
               height="200px"
             >
-              <v-card-title v-text="game.name"></v-card-title>
+              <v-card-title v-text="anime.name"></v-card-title>
             </v-img>
             <v-card-actions>
               <v-spacer></v-spacer>
@@ -41,9 +41,9 @@
 
 <script>
 export default {
-    name: 'CardGames',
+    name: 'CardAnimes',
     props: {
-        games: {
+        animes: {
             type: Array,
         }
     }
