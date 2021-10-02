@@ -4,7 +4,7 @@
       <h1>Sobre nós</h1>
 
     </div>
-    <p>
+    <p class="ml-3 mr-3">
       Somos uma comunidade que além de amar cultura pop (especialmente animes e
       jogos!) acredita que o lazer de forma geral é parte fundamental da nossa
       saúde, principalmente nestes tempos de pandemia em que muitos de nós
@@ -110,7 +110,9 @@ export default {
     justify-content: center;
     margin: 20px 0 ;
   }
-
+p{
+  text-align: justify;
+}
 #formulario{
   width: 80%;
   margin-left: 20px;
