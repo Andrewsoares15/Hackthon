@@ -2,14 +2,14 @@
   <div class="sobre">
     <div class="titulo-container">
       <h1>Sobre nós</h1>
-
+      
     </div>
-    <p class="ml-3 mr-3">Com a pandemia nós acabamos ficando distantes e reclusos em casa. Mas isso não significa que o entretenimento acabou 🤩</p>
+    <p class="ml-3 mr-3" align="justify">Com a pandemia nós acabamos ficando distantes e reclusos em casa. Mas isso não significa que o entretenimento acabou 🤩</p>
     <br>
-    <p class="ml-3 mr-3">Este site foi desenvolvido pensando em você, que assim como nós deve cansado de ficar em casa sem um passa-tempo. Aproveite nossos jogos e animes gratuitamente!</p>
+    <p class="ml-3 mr-3" align="justify">Este site foi desenvolvido pensando em você, que assim como nós deve cansado de ficar em casa sem um passa-tempo. Aproveite nossos jogos e animes gratuitamente!</p>
     <br>
 
-    <p class="ml-3 mr-3">
+    <p class="ml-3 mr-3" align="justify">
       Somos uma comunidade que além de amar cultura pop (especialmente animes e
       jogos!) acredita que o lazer de forma geral é parte fundamental da nossa
       saúde, principalmente nestes tempos de pandemia em que muitos de nós
@@ -66,7 +66,6 @@
       :disabled="!valid"
       color="success"
       class="mr-4"
-      @click="Enviar"
       type="reset"
     >
       Enviar
@@ -105,9 +104,6 @@ export default {
       validate () {
         this.$refs.form.validate()
       },
-      enviar(){
-
-      }
     },
   }
 </script>

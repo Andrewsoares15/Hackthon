@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app class="teste">
       <VLibras />
      <AppTopBar/>
      
