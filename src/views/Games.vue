@@ -1,7 +1,7 @@
 <template>
   <div class="games">
     <div class="titulo-container">
-      <h1>Games</h1>
+      <h1 class="titulo">Games</h1>
     </div>
     <CardGames :games="gamesLista" />
   </div>
@@ -30,5 +30,9 @@ export default {
   }
 </script>
 
-<style scoped>
+<style>
+  .titulo{
+    color: #037682;
+    font-style: bold;
+  }
 </style>
