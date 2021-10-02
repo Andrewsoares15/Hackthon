@@ -1,6 +1,8 @@
 <template>
   <div class="games">
-    <h1>Games</h1>
+    <div class="titulo-container">
+      <h1>Games</h1>
+    </div>
     <CardGames :games="gamesLista" />
   </div>
 </template>
@@ -27,3 +29,6 @@ export default {
     }
   }
 </script>
+
+<style scoped>
+</style>

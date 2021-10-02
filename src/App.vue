@@ -1,7 +1,8 @@
 <template>
   <v-app>
+      <VLibras />
      <AppTopBar/>
-     <VLibras />
+     
     <v-main>
      <router-view/>
     </v-main>
@@ -23,4 +24,13 @@ export default {
 }
 </script>
 <style >
+  .titulo-container{
+      display: flex;
+      justify-content: center;
+      margin: 20px 0 ;
+    }
+    .v-application--wrap{
+      min-height: 0;
+    }
 </style>
+

@@ -46,7 +46,7 @@
               <v-list-item-title>Home</v-list-item-title>
             </v-list-item>
           </router-link>
-          <router-link to="/lazer-Saude">
+          <router-link to="/saude">
             <v-list-item>
               <v-list-item-icon>
                 <v-icon>mdi-bottle-tonic-plus</v-icon>

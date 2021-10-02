@@ -1,7 +1,10 @@
 <template>
   <div class="sobre">
-    <h1 class="text-center mt-3">Sobre nós</h1>
-    <p class="text-left ml-4">
+    <div class="titulo-container">
+      <h1>Sobre nós</h1>
+
+    </div>
+    <p>
       Somos uma comunidade que além de amar cultura pop (especialmente animes e
       jogos!) acredita que o lazer de forma geral é parte fundamental da nossa
       saúde, principalmente nestes tempos de pandemia em que muitos de nós
@@ -102,6 +105,12 @@ export default {
 </script>
 
 <style scoped>
+  .titulo-container{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 ;
+  }
+
 #formulario{
   width: 80%;
   margin-left: 20px;
