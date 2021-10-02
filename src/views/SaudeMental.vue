@@ -1,11 +1,11 @@
 <template>
   <div class="saude">
-    <p class="ml-3 mr-2">Você pode – e deve – procurar reservar ao menos uns minutinhos diários para atividades que sente prazer em fazer</p>
-    <center><img src="../assets/saude_mental.png" alt="" height="200px"></center>
+   
     <div>
       <h1 align="center">Lazer e Saúde Mental</h1>
-    
-    <p class="ml-3 mr-3" align="justify">Você pode – e deve – procurar reservar ao menos uns minutinhos diários para atividades que sente prazer em fazer
+     <p class="ml-3 mr-2">Você pode – e deve – procurar reservar ao menos uns minutinhos diários para atividades que sente prazer em fazer</p>
+    <center><img src="../assets/saude_mental.png" alt="" height="200px"></center>
+    <p class="ml-3 mr-3" align="justify">
 
 As atividades de lazer não apenas ajudam a controlar o estresse – sabemos que o estresse está ligado à piora do estado de saúde mental – como nos dão um senso de autocuidado e de equilíbrio, algo que ajuda a reduzir a ansiedade. Além, é claro, de melhorar a autoestima.</p>
 
