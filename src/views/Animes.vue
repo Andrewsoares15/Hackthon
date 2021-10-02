@@ -1,6 +1,6 @@
 <template>
   <div class="animes">
-    <h1>Animes</h1>
+    <h1 class="titulo-container">Animes</h1>
     <CardAnimes :animes="animesLista" />
   </div>
 </template>
@@ -27,3 +27,7 @@ export default {
     }
 };
 </script>
+
+<style scoped>
+
+</style>
