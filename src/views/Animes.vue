@@ -2,6 +2,7 @@
   <div class="animes">
     <img alt="Vue logo" src="../assets/logo.png" />
     <h1>Animes</h1>
+    <Card :animes="animesLista" />
   </div>
 </template>
 
@@ -22,7 +23,6 @@ export default {
       .then(response => response.json())
       .then(json => {
         this.animesLista = json;
-        console.log(this.animesLista)
       })
     }
 };
