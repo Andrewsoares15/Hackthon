@@ -1,7 +1,8 @@
 <template>
   <v-app>
+      <VLibras />
      <AppTopBar/>
-     <VLibras />
+     
     <v-main>
      <router-view/>
     </v-main>
