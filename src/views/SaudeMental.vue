@@ -2,7 +2,7 @@
   <div class="saude">
    
     <div>
-      <h1 class="titulo" align="center">Lazer e Saúde Mental</h1>
+      <h1 class="titulo mt-4" align="center">Lazer e Saúde Mental</h1>
      <p class="ml-3 mr-2">Você pode – e deve – procurar reservar ao menos uns minutinhos diários para atividades que sente prazer em fazer</p>
     <center><img src="../assets/saude_mental.png" alt="" height="200px"></center>
     <p class="ml-3 mr-3" align="justify">
