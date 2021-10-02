@@ -2,15 +2,17 @@
   <div class="animes">
     <img alt="Vue logo" src="../assets/logo.png" />
     <h1>Animes</h1>
+    <CardAnimes :animes="animesLista" />
   </div>
 </template>
 
 <script>
+import CardAnimes from '../components/CardAnimes.vue'
 
 export default {
   name: "Animes",
   components: {
-    
+    CardAnimes
   },
   data() {
     return {
@@ -22,7 +24,6 @@ export default {
       .then(response => response.json())
       .then(json => {
         this.animesLista = json;
-        console.log(this.animesLista)
       })
     }
 };

@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Animes from '../views/Animes.vue'
 import Games from '../views/Games.vue'
-import Sobre from '../views/Animes.vue'
+import Sobre from '../views/SobreNos.vue'
 import Inicio from '../views/Inicio.vue'
 import Saude from '../views/SaudeMental.vue'
 Vue.use(VueRouter)
