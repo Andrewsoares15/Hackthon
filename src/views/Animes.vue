@@ -29,5 +29,8 @@ export default {
 </script>
 
 <style scoped>
-
+  .titulo-container{
+    color: #037682;
+    font-style: bold; 
+  }
 </style>
