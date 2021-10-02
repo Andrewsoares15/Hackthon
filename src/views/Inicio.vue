@@ -9,7 +9,7 @@
     <p class="text-left ml-4">Quando falamos sobre a pandemia, o cenário atual fez com que ocorresse uma explosão de usos. O grupo de pesquisa de mercado NPD, publicou o 2020 Gamer Segmentation Report, que é um levantamento onde foi concluído que três em cada quatro norte-americanos estão jogando videogame em casa desde o início de 2020, representando diante dos dois últimos anos, o acréscimo de 32 milhões de pessoas.</p>
       <v-card
         class="mx-auto"
-        max-width="500"
+        max-width="800"
       >
         <v-container fluid>
           <v-row dense>
@@ -76,14 +76,7 @@ export default {
   name: 'Inicio',
   components: {
     
-  },
-  data: () => ({
-      cards: [
-        { title: 'Pre-fab homes', src: 'https://cdn.vuetifyjs.com/images/cards/house.jpg', flex: 12 },
-        { title: 'Favorite road trips', src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg', flex: 6 },
-        { title: 'Best airlines', src: 'https://cdn.vuetifyjs.com/images/cards/plane.jpg', flex: 6 },
-      ],
-    }),
+  }
 }
 </script>
 <style scoped>
