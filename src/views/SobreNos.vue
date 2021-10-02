@@ -2,12 +2,18 @@
   <div class="sobre">
     <div class="titulo-container">
       <h1 class="titulo">Sobre nós</h1>
-      
     </div>
-    <p class="ml-3 mr-3" align="justify">Com a pandemia nós acabamos ficando distantes e reclusos em casa. Mas isso não significa que o entretenimento acabou 🤩</p>
-    <br>
-    <p class="ml-3 mr-3" align="justify">Este site foi desenvolvido pensando em você, que assim como nós deve cansado de ficar em casa sem um passa-tempo. Aproveite nossos jogos e animes gratuitamente!</p>
-    <br>
+    <p class="ml-3 mr-3" align="justify">
+      Com a pandemia nós acabamos ficando distantes e reclusos em casa. Mas isso
+      não significa que o entretenimento acabou 🤩
+    </p>
+    <br />
+    <p class="ml-3 mr-3" align="justify">
+      Este site foi desenvolvido pensando em você, que assim como nós deve
+      cansado de ficar em casa sem um passa-tempo. Aproveite nossos jogos e
+      animes gratuitamente!
+    </p>
+    <br />
 
     <p class="ml-3 mr-3" align="justify">
       Somos uma comunidade que além de amar cultura pop (especialmente animes e
@@ -20,108 +26,97 @@
       algo que ainda não conste nas nossas listas, mande seu anime e/ou jogo no
       nosso grupo do Telegram ou Preenchendo o formulário abaixo.
     </p>
-    <br>
-    <p class="ml-3 mr-3 text-center">Você não está sozinho(a) 💙</p>
-    <hr style="margin: 0 auto;" width="80%">
+    <br />
+    <p class="ml-3 mr-3">Você não está sozinho 💙</p>
+
     <h2 class="text-center">Fale conosco</h2>
-    <v-form
-    id="formulario"
-    ref="form"
-    v-model="valid"
-    lazy-validation
-  >
-    <v-text-field
-      v-model="name"
-      :counter="10"
-      :rules="nameRules"
-      label="Name"
-      required
-    ></v-text-field>
+    <v-form id="formulario" ref="form" v-model="valid" lazy-validation>
+      <v-text-field
+        v-model="name"
+        :counter="10"
+        :rules="nameRules"
+        label="Name"
+        required
+      ></v-text-field>
 
-    <v-text-field
-      v-model="email"
-      :rules="emailRules"
-      label="E-mail"
-      required
-    ></v-text-field>
+      <v-text-field
+        v-model="email"
+        :rules="emailRules"
+        label="E-mail"
+        required
+      ></v-text-field>
 
-    <v-select
-      v-model="select"
-      :items="items"
-      :rules="[v => !!v || 'Item is required']"
-      label="Assunto"
-      required
-    ></v-select>
-     <v-col
-        cols="12"
-        md="6"
-      >
+      <v-select
+        v-model="select"
+        :items="items"
+        :rules="[(v) => !!v || 'Item is required']"
+        label="Assunto"
+        required
+      ></v-select>
+      <v-col cols="12" md="6">
         <v-textarea
           solo
           name="input-7-4"
           label="Nos envie sua Mensagem"
         ></v-textarea>
       </v-col>
-    <v-btn
-      :disabled="!valid"
-      color="success"
-      class="mr-4 mb-3"
-      type="reset"
-    >
-      Enviar
-    </v-btn>
-   
-  </v-form>
+      <v-btn
+        :disabled="!valid"
+        color="success"
+        class="mr-4"
+        @click="Enviar"
+        type="reset"
+      >
+        Enviar
+      </v-btn>
+    </v-form>
   </div>
 </template>
 
 <script>
 export default {
   name: "sobre",
-    data: () => ({
-      valid: true,
-      name: '',
-      nameRules: [
-        v => !!v || 'Name is required',
-        v => (v && v.length <= 10) || 'Name must be less than 10 characters',
-      ],
-      email: '',
-      emailRules: [
-        v => !!v || 'E-mail is required',
-        v => /.+@.+\..+/.test(v) || 'E-mail must be valid',
-      ],
-      select: null,
-      items: [
-        'Games',
-        'Lazer e Saúde',
-        'Animes',
-        'Outros',
-      ],
-      checkbox: false,
-    }),
+  data: () => ({
+    valid: true,
+    name: "",
+    nameRules: [
+      (v) => !!v || "Name is required",
+      (v) => (v && v.length <= 10) || "Name must be less than 10 characters",
+    ],
+    email: "",
+    emailRules: [
+      (v) => !!v || "E-mail is required",
+      (v) => /.+@.+\..+/.test(v) || "E-mail must be valid",
+    ],
+    select: null,
+    items: ["Games", "Lazer e Saúde", "Animes", "Outros"],
+    checkbox: false,
+  }),
 
-    methods: {
-      validate () {
-        this.$refs.form.validate()
-      },
+  methods: {
+    validate() {
+      this.$refs.form.validate();
     },
-  }
+    enviar() {},
+  },
+};
 </script>
 
 <style scoped>
-  .titulo{
-    color: #037682;
-    font-style: bold; 
-  }
-  .titulo-container{
-    display: flex;
-    justify-content: center;
-    margin: 20px 0 ;
-  }
-p{
+.titulo {
+  color: #037682;
+  font-style: bold;
+}
+.titulo-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+p {
   text-align: justify;
 }
-#formulario{
+
+#formulario {
   width: 80%;
   margin-left: 20px;
 }

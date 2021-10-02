@@ -6,31 +6,31 @@
 </template>
 
 <script>
-import CardAnimes from '../components/CardAnimes.vue'
+import CardAnimes from "../components/CardAnimes.vue";
 
 export default {
   name: "Animes",
   components: {
-    CardAnimes
+    CardAnimes,
   },
   data() {
     return {
-      animesLista: []
-    }
+      animesLista: [],
+    };
   },
   created() {
-    fetch('https://it3zxc-default-rtdb.firebaseio.com/lazer/animes.json')
-      .then(response => response.json())
-      .then(json => {
+    fetch("https://it3zxc-default-rtdb.firebaseio.com/lazer/animes.json")
+      .then((response) => response.json())
+      .then((json) => {
         this.animesLista = json;
-      })
-    }
+      });
+  },
 };
 </script>
 
 <style scoped>
-  .titulo-container{
-    color: #037682;
-    font-style: bold; 
-  }
+.titulo-container {
+  color: #037682;
+  font-style: bold;
+}
 </style>
