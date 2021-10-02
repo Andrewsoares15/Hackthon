@@ -2,15 +2,17 @@
   <div class="games">
     <img alt="Vue logo" src="../assets/logo.png">
     <h1>Games</h1>
+    <Card :games="gamesLista" />
   </div>
 </template>
 
 <script>
+import Card from '../components/Card.vue'
 
 export default {
   name: 'Games',
   components: {
-    
+    Card
   },
   data() {
     return {

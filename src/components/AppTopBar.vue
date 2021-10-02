@@ -1,5 +1,6 @@
 <template>
   <div>
+    <a href="https://t.me/pauloboldrini" target="_blank"><img src="https://i.imgur.com/DWJroXT.png" style="height:60px; position:fixed; bottom: 160px; right: 22px; z-index:99999;" data-selector="img"></a>
     <v-app-bar
       
       color="#43a047"
@@ -45,7 +46,7 @@
               <v-list-item-title>Home</v-list-item-title>
             </v-list-item>
           </router-link>
-          <router-link to="/lazer">
+          <router-link to="/lazer-Saude">
             <v-list-item>
               <v-list-item-icon>
                 <v-icon>mdi-bottle-tonic-plus</v-icon>
