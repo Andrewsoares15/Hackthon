@@ -30,7 +30,7 @@ export default {
 
 <style scoped>
 .titulo-container {
-  font-style: bold;
   color: #037682;
+  font-style: bold;
 }
 </style>
