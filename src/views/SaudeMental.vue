@@ -1,7 +1,6 @@
 <template>
   <div class="titulo-container">>
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+
     <h1>Lazer e Saúde Mental</h1>
     <p align="justify">Você pode – e deve – procurar reservar ao menos uns minutinhos diários para atividades que sente prazer em fazer
 
