@@ -27,8 +27,8 @@
       nosso grupo do Telegram ou Preenchendo o formulário abaixo.
     </p>
     <br />
-    <p class="ml-3 mr-3">Você não está sozinho 💙</p>
-
+    <p class="ml-3 mr-3 text-center">Você não está sozinho 💙</p>
+  <hr width="80%" class="text-center hr">
     <h2 class="text-center">Fale conosco</h2>
     <v-form id="formulario" ref="form" v-model="valid" lazy-validation>
       <v-text-field
@@ -63,9 +63,10 @@
       <v-btn
         :disabled="!valid"
         color="success"
-        class="mr-4"
+        class="mr-4 mb-4"
         @click="Enviar"
         type="reset"
+        
       >
         Enviar
       </v-btn>
@@ -119,5 +120,8 @@ p {
 #formulario {
   width: 80%;
   margin-left: 20px;
+}
+.hr{
+  margin: 0 auto;
 }
 </style>

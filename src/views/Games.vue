@@ -30,18 +30,15 @@ export default {
 };
 </script>
 
-<<<<<<< HEAD
 <style>
   .titulo{
     color: #037682;
     font-style: bold;
   }
 </style>
-=======
 <style scoped>
 .h1 {
   font-style: bold;
   color: #037682;
 }
 </style>
->>>>>>> c725fdd004164acdcc20cf3621200fbfd0f0dc0b
