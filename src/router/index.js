@@ -4,7 +4,7 @@ import Animes from '../views/Animes.vue'
 import Games from '../views/Games.vue'
 import Sobre from '../views/Animes.vue'
 import Inicio from '../views/Inicio.vue'
-
+import Saude from '../views/SaudeMental.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -28,6 +28,12 @@ const routes = [
     name: 'Games',
     component: Games
   },
+  {
+    path: '/saude',
+    name: 'Saude',
+    component: Saude
+  },
+  
 ]
 
 const router = new VueRouter({
