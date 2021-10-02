@@ -105,17 +105,14 @@ export default {
 </script>
 
 <style scoped>
-<<<<<<< HEAD
   .titulo-container{
     display: flex;
     justify-content: center;
     margin: 20px 0 ;
   }
 
-=======
 #formulario{
   width: 80%;
   margin-left: 20px;
 }
->>>>>>> 799b4cf1e6f996dfeb7570906801ea277f505d49
 </style>

@@ -25,4 +25,8 @@ export default {
       justify-content: center;
       margin: 20px 0 ;
     }
+    .v-application--wrap{
+      min-height: 0;
+    }
 </style>
+
