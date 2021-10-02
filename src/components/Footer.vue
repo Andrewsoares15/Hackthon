@@ -9,7 +9,14 @@
       tile
     >
       <v-card-title class="teal">
-        <strong class="subheading">Any</strong>
+        <strong class="subheading">#AnywhereTogether - <v-avatar>
+      <a href="https://t.me/pauloboldrini">
+          <img
+        src="../assets/telegram.png"
+        alt="John"
+      >
+      </a>
+    </v-avatar> </strong>
 
         <v-spacer></v-spacer>
 
