@@ -3,7 +3,7 @@
     <img alt="Vue logo" src="../assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" />
     <h1>Lazer e Saúde Mental</h1>
-    <p>Você pode – e deve – procurar reservar ao menos uns minutinhos diários para atividades que sente prazer em fazer
+    <p align="justify">Você pode – e deve – procurar reservar ao menos uns minutinhos diários para atividades que sente prazer em fazer
 
 As atividades de lazer não apenas ajudam a controlar o estresse – sabemos que o estresse está ligado à piora do estado de saúde mental – como nos dão um senso de autocuidado e de equilíbrio, algo que ajuda a reduzir a ansiedade. Além, é claro, de melhorar a autoestima.
 
